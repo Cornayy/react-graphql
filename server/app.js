@@ -3,8 +3,11 @@ const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
 const config = require('./config/config');
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
 
 mongoose.connect(config.connectionString, { useNewUrlParser: true });
 
@@ -20,6 +23,6 @@ app.use(
     })
 );
 
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log('Listening.');
 });
