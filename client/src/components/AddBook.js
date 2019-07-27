@@ -77,6 +77,8 @@ class AddBook extends Component {
                 }
             ]
         });
+
+        e.target.reset();
     }
 }
 
