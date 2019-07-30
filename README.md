@@ -1,3 +1,8 @@
-# GraphQL Course 
+# GraphQL
 
-* Reference for MERN related stuff.
+Project in GraphQL, MongoDB, Node.JS and React.
+
+# Why?
+
+* To teach myself GraphQL.
+* To use as a reference for future projects.
